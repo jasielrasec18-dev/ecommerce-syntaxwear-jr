@@ -1,74 +1,45 @@
-# SyntaxWear JR - E-commerce de Tênis e Sneakers
+👟 SyntaxWear JR - Tênis e Sneakers Online
+A SyntaxWear é uma landing page de e-commerce moderna e responsiva, focada na venda de tênis e sneakers exclusivos. O projeto foi desenvolvido com foco em uma interface limpa, tipografia moderna e uma experiência de usuário fluida.
 
-## Descrição
-Site fictício de e-commerce para venda de tênis e sneakers, com foco em design moderno, responsivo e navegação intuitiva. Desenvolvido para fins educacionais e demonstração de habilidades em HTML e CSS.
+🚀 Tecnologias Utilizadas
+Este projeto foi construído utilizando as melhores práticas de desenvolvimento web front-end:
 
-## Estrutura do Projeto
+HTML5: Estrutura semântica para melhor acessibilidade e SEO.
+CSS3 Moderno:
+Variáveis CSS: Para facilitar a manutenção de cores e tipografia.
+Metodologia Modular: CSS organizado em componentes (header, footer, hero, etc.).
+Flexbox e CSS Grid: Para layouts complexos e responsivos.
+Google Fonts: Utilização da fonte 'Ubuntu' para um visual moderno e legível.
+✨ Funcionalidades
+Cabeçalho Interativo: Menu de navegação completo com suporte a dispositivos móveis (hamburguer menu).
+Seção Hero Impactante: Destaque para o lançamento "Krypton One" com chamadas para ação (CTA) claras.
+Categorias de Produtos: Navegação visual por estilos (Casual, Esporte, Moderno, Futurista).
+Grid de Produtos: Exibição organizada e atraente dos principais modelos.
+Rodapé Completo: Newsletter, links de redes sociais e navegação detalhada por categorias.
+Design Responsivo: Adaptado para diferentes tamanhos de tela (desktop, tablet e mobile).
+📂 Estrutura do Projeto
+A organização dos arquivos segue um padrão modular para facilitar a escalabilidade:
 
-```
-├── index.html
-├── README.md
-├── css/
-│   ├── base.css
-│   ├── reset.css
-│   ├── variables.css
-│   └── components/
-│       ├── footer.css
+C:.
+├── index.html          # Página principal do site
+├── css/                # Estilização
+│   ├── base.css        # Estilos base e elementos globais
+│   ├── reset.css       # Reset de estilos padrão do navegador
+│   ├── variables.css   # Definição de cores e fontes (Custom Properties)
+│   └── components/     # Estilos específicos de cada seção/componente
 │       ├── header.css
 │       ├── hero.css
-│       ├── product-category.css
-│       └── product-grid.css
-├── images/
-│   ├── banners/
-│   │   ├── hero.jpg
-│   │   └── hero-mobile.jpg
-│   ├── favicons/
-│   ├── icons/
-│   │   ├── bag.svg
-│   │   ├── facebook.svg
-│   │   ├── hamburguer.svg
-│   │   ├── help.svg
-│   │   ├── instagram.svg
-│   │   ├── tiktok.svg
-│   │   ├── user.svg
-│   │   └── whatsapp.svg
-│   ├── logo/
-│   │   └── logo.svg
-│   └── products/
-│       ├── card_imagem.jpg
-│       ├── casual.jpg
-│       ├── esporte.jpg
-│       ├── futurista-grid.jpg
-│       ├── futurista.jpg
-│       ├── modelo-feminino.jpg
-│       ├── moderno-grid.jpg
-│       ├── moderno.jpg
-│       ├── preto-branco-grid.jpg
-│       └── roxo-verde-grid.jpg
-├── js/
-└── ...
-```
-
-## Tecnologias Utilizadas
-- HTML5
-- CSS3 (com organização modular por componentes)
-- Fonte: [Ubuntu](https://fonts.google.com/specimen/Ubuntu)
-
-## Principais Funcionalidades
-- Página inicial com banner hero, categorias e grid de produtos
-- Navegação por categorias (Masculino, Feminino, Outlet)
-- Cards de produtos destacados
-- Formulário de newsletter no rodapé
-- Ícones sociais e navegação responsiva
-
-## Como Executar
-1. Clone ou baixe este repositório.
-2. Abra o arquivo `index.html` em seu navegador.
-3. Não há dependências externas além da fonte Google Fonts.
-
-## Créditos e Imagens
-- Imagens e ícones utilizados são fictícios ou de uso livre para fins educacionais.
-- Projeto desenvolvido por Jasiel Rasec no curso DEV 2.0.
-
-## Licença
-Este projeto é apenas para fins de estudo e demonstração. Não possui licença comercial.
+│       ├── product-grid.css
+│       └── ...
+├── images/             # Ativos visuais
+│   ├── banners/        # Imagens de fundo e hero
+│   ├── icons/          # Ícones em formato SVG
+│   ├── logo/           # Logotipo da marca
+│   └── products/       # Fotos dos produtos e categorias
+└── README.md           # Documentação do projeto
+🛠️ Como Executar o Projeto
+Clone este repositório ou baixe os arquivos.
+Navegue até a pasta raiz do projeto.
+Abra o arquivo index.html em qualquer navegador moderno.
+(Opcional) Utilize a extensão Live Server no VS Code para visualizar as alterações em tempo real.
+Desenvolvido com 💜 como parte do aprendizado de desenvolvimento web.
