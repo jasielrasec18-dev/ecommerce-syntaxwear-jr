@@ -6,9 +6,9 @@ body {
 }
 
 main {
-    padding: 1.25rem 1.87rem 0 1.87rem;
+    padding: 2.5rem 0 2.5rem;
     max-width: 1360px;
-    margin-bottom: 30px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1280px) {
