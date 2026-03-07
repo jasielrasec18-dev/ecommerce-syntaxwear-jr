@@ -1,85 +1,47 @@
-<<<<<<< HEAD
-👟 SyntaxWear - Tênis e Sneakers Online
+# SyntaxWear - Tênis e Sneakers Online
 
-A SyntaxWear é uma landing page de e-commerce moderna e responsiva, focada na venda de tênis e sneakers exclusivos. O projeto foi desenvolvido com foco em uma interface limpa, tipografia moderna e uma experiência de usuário fluida.
+## Descrição do Projeto
 
-🚀 Tecnologias Utilizadas
+Este é o projeto da landing page da SyntaxWear, uma loja online fictícia especializada em tênis e sneakers. O site foi desenvolvido com foco em apresentar uma interface moderna e responsiva, destacando produtos, categorias e funcionalidades essenciais de um e-commerce.
 
-Este projeto foi construído utilizando as melhores práticas de desenvolvimento web front-end:
+## Funcionalidades
 
-HTML5: Estrutura semântica para melhor acessibilidade e SEO.
-CSS3 Moderno:
-Variáveis CSS: Para facilitar a manutenção de cores e tipografia.
-Metodologia Modular: CSS organizado em componentes (header, footer, hero, etc.).
-Flexbox e CSS Grid: Para layouts complexos e responsivos.
-Google Fonts: Utilização da fonte 'Ubuntu' para um visual moderno e legível.
+*   **Header Responsivo:** Navegação principal com logo, links para categorias (Masculino, Feminino, Outlet) e acesso rápido (Nossas lojas, Sobre, Minha conta, Ajuda, Carrinho). Inclui um menu hambúrguer para dispositivos móveis.
+*   **Seção Hero:** Um banner de destaque com um título impactante ("Transforme qualquer passo em presença."), subtítulo e botões de chamada para ação ("Ver modelos", "Comprar").
+*   **Categorias de Produtos:** Seção visualmente atraente para explorar produtos por categoria (Casual, Esporte, Moderno, Futurista), com links para as respectivas páginas (atualmente placeholders).
+*   **Grade de Produtos (Product Grid):** Apresenta uma seleção de tênis, incluindo um card de destaque para o modelo "Krypton One" com opções de compra para os gêneros masculino e feminino, e outros produtos em cards individuais.
+*   **Rodapé Completo:** Contém um formulário de inscrição para newsletter, links para redes sociais (Instagram, WhatsApp, TikTok, Facebook) e uma navegação secundária organizada por categorias de produtos, informações da loja e sobre a empresa.
+*   **Design Responsivo:** O layout se adapta a diferentes tamanhos de tela, garantindo uma boa experiência de usuário em desktops, tablets e smartphones.
 
-✨ Funcionalidades
+## Tecnologias Utilizadas
 
-Cabeçalho Interativo: Menu de navegação completo com suporte a dispositivos móveis (hamburguer menu).
-Seção Hero Impactante: Destaque para o lançamento "Krypton One" com chamadas para ação (CTA) claras.
-Categorias de Produtos: Navegação visual por estilos (Casual, Esporte, Moderno, Futurista).
-Grid de Produtos: Exibição organizada e atraente dos principais modelos.
-Rodapé Completo: Newsletter, links de redes sociais e navegação detalhada por categorias.
-Design Responsivo: Adaptado para diferentes tamanhos de tela (desktop, tablet e mobile).
-📂 Estrutura do Projeto
-A organização dos arquivos segue um padrão modular para facilitar a escalabilidade:
+*   **HTML5:** Estrutura semântica da página.
+*   **CSS3:** Estilização completa, incluindo variáveis CSS para gerenciamento de temas e um design modular com componentes (`base.css`, `variables.css`, `reset.css`, `layout.css` e componentes específicos para header, hero, categorias, grid e footer).
 
-=======
-👟 SyntaxWear JR - Tênis e Sneakers Online
-A SyntaxWear é uma landing page de e-commerce moderna e responsiva, focada na venda de tênis e sneakers exclusivos. O projeto foi desenvolvido com foco em uma interface limpa, tipografia moderna e uma experiência de usuário fluida.
+## Como Rodar o Projeto Localmente
 
-🚀 Tecnologias Utilizadas
-Este projeto foi construído utilizando as melhores práticas de desenvolvimento web front-end:
+Para visualizar e testar o projeto em sua máquina local, siga os passos abaixo:
 
-HTML5: Estrutura semântica para melhor acessibilidade e SEO.
-CSS3 Moderno:
-Variáveis CSS: Para facilitar a manutenção de cores e tipografia.
-Metodologia Modular: CSS organizado em componentes (header, footer, hero, etc.).
-Flexbox e CSS Grid: Para layouts complexos e responsivos.
-Google Fonts: Utilização da fonte 'Ubuntu' para um visual moderno e legível.
-✨ Funcionalidades
-Cabeçalho Interativo: Menu de navegação completo com suporte a dispositivos móveis (hamburguer menu).
-Seção Hero Impactante: Destaque para o lançamento "Krypton One" com chamadas para ação (CTA) claras.
-Categorias de Produtos: Navegação visual por estilos (Casual, Esporte, Moderno, Futurista).
-Grid de Produtos: Exibição organizada e atraente dos principais modelos.
-Rodapé Completo: Newsletter, links de redes sociais e navegação detalhada por categorias.
-Design Responsivo: Adaptado para diferentes tamanhos de tela (desktop, tablet e mobile).
-📂 Estrutura do Projeto
-A organização dos arquivos segue um padrão modular para facilitar a escalabilidade:
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/ecommerce-syntaxwear-jr.git # Substitua com o link correto do seu repositório
+    ```
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd ecommerce-syntaxwear-jr
+    ```
+3.  **Abra o arquivo `index.html`:**
+    Você pode simplesmente abrir o arquivo `index.html` em seu navegador web preferido (Chrome, Firefox, Edge, etc.). Arraste o arquivo para a janela do navegador ou clique duas vezes nele.
 
->>>>>>> 850ae922518d8ddd56ab4dc30db218fc4721f5fd
-C:.
-├── index.html          # Página principal do site
-├── css/                # Estilização
-│   ├── base.css        # Estilos base e elementos globais
-│   ├── reset.css       # Reset de estilos padrão do navegador
-│   ├── variables.css   # Definição de cores e fontes (Custom Properties)
-│   └── components/     # Estilos específicos de cada seção/componente
-│       ├── header.css
-│       ├── hero.css
-│       ├── product-grid.css
-│       └── ...
-├── images/             # Ativos visuais
-│   ├── banners/        # Imagens de fundo e hero
-│   ├── icons/          # Ícones em formato SVG
-│   ├── logo/           # Logotipo da marca
-│   └── products/       # Fotos dos produtos e categorias
-└── README.md           # Documentação do projeto
-<<<<<<< HEAD
+    Alternativamente, você pode usar uma extensão de servidor local para VS Code, como "Live Server", para abrir o projeto, o que é útil para desenvolvimento.
 
-🛠️ Como Executar o Projeto
+## Próximos Passos (Sugestões de Melhoria)
 
-=======
-🛠️ Como Executar o Projeto
->>>>>>> 850ae922518d8ddd56ab4dc30db218fc4721f5fd
-Clone este repositório ou baixe os arquivos.
-Navegue até a pasta raiz do projeto.
-Abra o arquivo index.html em qualquer navegador moderno.
-(Opcional) Utilize a extensão Live Server no VS Code para visualizar as alterações em tempo real.
-<<<<<<< HEAD
+*   **Adicionar JavaScript:** Implementar funcionalidades interativas, como carrosséis de produtos, filtros de busca, carrinho de compras funcional, validação de formulários e interações de menu mobile.
+*   **Páginas de Produtos:** Criar páginas detalhadas para cada produto com informações como preço, descrição, tamanhos disponíveis e opções de compra.
+*   **Backend:** Integrar com um sistema de backend para gerenciamento de produtos, pedidos, usuários e processamento de pagamentos.
+*   **SEO:** Otimizar o site para motores de busca com metatags mais detalhadas, estrutura de URLs amigáveis e conteúdo relevante.
+*   **Testes:** Adicionar testes de unidade e integração para garantir a estabilidade e a funcionalidade do site.
 
-Desenvolvido com 💜 como parte do aprendizado de desenvolvimento web.
-=======
-Desenvolvido com 💜 como parte do aprendizado de desenvolvimento web.
->>>>>>> 850ae922518d8ddd56ab4dc30db218fc4721f5fd
+---
+Desenvolvido com 💙 por Jasiel Rasec no Curso DevQuest - 2.0
